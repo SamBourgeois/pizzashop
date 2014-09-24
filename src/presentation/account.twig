@@ -1,0 +1,49 @@
+<div class="container">    
+    <div class="tekst profiel"> 
+        <h2>Mijn Account</h2>
+        <form action="" method="post" class="loginform">
+            <p>
+                <label for="gebruikersnaam">Gebruikersnaam:</label>
+                <input type="text" name="gebruikersnaam" value="{{gebruikersnaam}}"/>  
+            </p><p>
+                <label for="emailadres">Emailadres:</label>       
+                <input type="text" name="emailadres" value="{{emailadres}}"/>
+            </p><p>
+                <label for="voornaam">Voornaam:</label>       
+                <input type="text" name="voornaam" value="{{voornaam}}"/>
+            </p><p>
+                <label for="achternaam">Achternaam:</label>         
+                <input type="text" name="achternaam" value="{{achternaam}}"/>
+            </p><p>
+                <label for="adres">Adres:</label>         
+                <input type="text" name="adres" value="{{adres}}"/>
+            </p><p>
+                <label for="gemeente">Gemeente:</label>       
+                <input type="text" name="gemeente" value="{{gemeente}}"/>
+            </p><p>
+                <label for="postcode">Postcode:</label>         
+                <input type="text" name="postcode" value="{{postcode}}"/>
+            </p><p>
+                <label for="telefoonnummer">Telefoonnummer:</label>        
+                <input type="text" name="telefoonnummer" value="{{telefoonnummer}}"/>
+            </p><p>
+                <button type="submit" name="submitaccount" class="button"/>Account aanpassen</button>
+            </p>            
+        </form>
+        <hr/>
+        <form action="" method="post" class="loginform">
+            <p>
+                <label for="current_password">Wachtwoord:</label>
+                <input type="password" name="current_password">
+            </p><p>
+                <label for="password">Nieuw wachtwoord:</label>
+                <input type="password" name="password">
+            </p><p>
+                <label for="password_again">Nieuw wachtwoord opnieuw:</label>
+                <input type="password" name="password_again">
+            </p><p>
+                <button type="submit" name="submitpassword" class="button"/>Wachtwoord wijzigen</button>
+            </p>            
+        </form>
+    </div>
+</div>
